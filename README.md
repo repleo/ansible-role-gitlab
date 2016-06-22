@@ -1,6 +1,7 @@
 # Ansible Role: GitLab
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-gitlab.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-gitlab)
+[![Build Status](https://travis-ci.org/repleo/ansible-role-gitlab.svg?branch=master)](https://travis-ci.org/repleo/ansible-role-gitlab)
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-repleo.gitlab-660198.svg?style=flat)](https://galaxy.ansible.com/repleo/gitlab)
 
 Installs GitLab, a Ruby-based front-end to Git, on any RedHat/CentOS or Debian/Ubuntu linux system.
 
@@ -72,4 +73,9 @@ MIT / BSD
 
 ## Author Information
 
+Curren maintainter:
+Repleo, Amstelveen, Holland -- www.repleo.nl  
+Jeroen Arnoldus (jeroen@repleo.nl)
+
 This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+

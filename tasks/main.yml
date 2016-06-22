@@ -81,6 +81,7 @@
     mode: 0600
   notify: restart gitlab
 
+
 # Start and configure GitLab. Sometimes the first run fails, but after that,
 # restarts fix problems, so ignore failures on this run.
 - name: Reconfigure GitLab (first run).
@@ -88,3 +89,4 @@
     gitlab-ctl reconfigure
     creates=/var/opt/gitlab/bootstrapped
   failed_when: false
+
